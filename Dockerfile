@@ -1,5 +1,5 @@
 FROM openjdk
 WORKDIR /application
-COPY javaApplication.java .
-RUN javac javaApplication.java
-CMD java javaApplication
+COPY JavaApplication.java .
+RUN javac JavaApplication.java
+CMD java JavaApplication
